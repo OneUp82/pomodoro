@@ -1,96 +1,144 @@
-# 🥑🐾 Pixel Mascot Pomodoro
+<p align="center">
+  <img src="assets/preview.png" width="320" alt="Pixel Mascot Pomodoro Screenshot" />
+</p>
+
+<h1 align="center">🥑 Pixel Mascot Pomodoro</h1>
 
 <p align="center">
-  <img src="skins/avocado.png" width="160" alt="Pixel Mascot Avocado" />
+  <b>A charming, borderless floating desktop mascot and Pomodoro timer built in Python.</b><br>
+  Keep your focus sharp with an adorable pixel-art companion that lives right on your screen.
 </p>
 
 <p align="center">
-  <b>Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer bygget i Python! ⏱️🎉</b><br>
-  <i>A cute, floating desktop mascot and Pomodoro timer built in Python!</i><br>
-  <i>¡Una adorable mascota de escritorio y temporizador Pomodoro en Python!</i><br><br>
-  Laget av <b><a href="https://github.com/OneUp82">OneUp82</a></b>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white" alt="Platform: Windows" />
+  <img src="https://img.shields.io/badge/Languages-EN%20%7C%20NO%20%7C%20ES-orange" alt="Languages" />
+  <img src="https://img.shields.io/badge/Skins-10%20Included-ff69b4" alt="10 Skins Included" />
 </p>
 
 ---
 
-## 🌟 Funksjoner / Features / Características
+## ✨ Why You'll Love It
 
-### 1. 🌐 3 Språk / 3 Languages / 3 Idiomas
-Maskoten støtter dynamisk bytte mellom 3 språk via høyreklikk-menyen:
-- 🇳🇴 **Norsk** (Bokmål)
-- 🇬🇧 **English**
-- 🇪🇸 **Español**
-
-Alle menyer, skinnnavn, knapper og innstillingsdialoger oppdateres umiddelbart!
-
----
-
-### 2. 🥑 10 Søte Skins / 10 Cute Skins
-Bytt når som helst mellom 10 unike pixel art-figurer:
-1. 🥑 **Avokado / Avocado / Aguacate**
-2. 🐱 **Katt / Cat / Gato**
-3. 🐶 **Hund / Dog / Perro**
-4. 🐸 **Frosk / Frog / Rana**
-5. 🦆 **And / Duck / Pato**
-6. 🐼 **Panda**
-7. 🤖 **Robot**
-8. 👻 **Spøkelse / Ghost / Fantasma**
-9. 🍓 **Jordbær / Strawberry / Fresa**
-10. 🐻 **Bjørn / Bear / Oso**
+- 🪟 **True Frameless Companion** — No clumsy window borders or title bars. The mascot floats naturally above your apps and wallpapers.
+- 🖱️ **Fully Draggable** — Click and drag the mascot anywhere on your desktop.
+- 🎭 **10 Handcrafted Pixel-Art Skins** — Switch instantly between Avocado, Cat, Dog, Frog, Duck, Panda, Robot, Ghost, Strawberry, and Bear.
+- 🔊 **Unique Voice for Every Skin** — Every mascot has its own synthesized audio cue: kitten meows, playful barks, retro 8-bit chimes, cartoon pops, and crystal bells.
+- 📳 **Celebratory Screen-Shake** — When your countdown reaches zero, the mascot vibrates with an energetic screen-shake animation to celebrate your victory!
+- 🌐 **Trilingual Out-of-the-Box** — Switch seamlessly between **English**, **Norwegian**, and **Spanish** in real-time.
+- 📏 **Razor-Sharp Scaling** — Choose between **Small**, **Medium**, **Large**, and **Extra Large** with authentic nearest-neighbor pixel preservation.
+- ⚡ **Lightweight & Fast** — Built with native Tkinter and Pillow. Zero heavy Electron bloat, near-instant launch, and ultra-low memory usage.
 
 ---
 
-### 3. 🔊 Tilpasset Lyd / Custom Sounds
-Hvert skin har sin egen unike, syntetiserte lydeffekt:
-- Katten mjauer, hunden bjeffer, avokadoen popper, roboten piper 8-bit, osv.!
+## 📸 In Action
+
+> The mascot's belly houses a high-contrast smart display with a circular progress ring, remaining time, custom task name, and one-click controls.
+
+<p align="center">
+  <img src="assets/preview.png" width="400" alt="Desktop Widget in Action" />
+</p>
 
 ---
 
-### 4. 📳 Risteeffekt / Screen Shake Animation
-Når tiden når `00:00:00`, rister og danser maskoten fysisk på skjermen med dempet oscillasjon!
+## 🎮 How to Interact
+
+| Action | What It Does |
+|---|---|
+| **Left-Click + Drag** | Move your mascot anywhere on your screen. |
+| **Left-Click on Belly** | Toggle **Start** / **Pause** instantly. |
+| **Right-Click** | Opens the complete context menu (Skins, Sizes, Language, Presets, Settings, Sound Test, Screen-Shake, Always-on-Top, Reset, About, Quit). |
 
 ---
 
-### 5. 📏 4 Skalerbare Størrelser / 4 Scalable Sizes
-Pikslene forblir knivskarpe (Nearest Neighbor-skalering):
-- ▫️ **Liten / Small** (224 x 288 px)
-- ◽ **Medium** (280 x 360 px) – *Standard*
-- ◻️ **Stor / Large** (336 x 432 px)
-- ⬛ **Ekstra Stor / Extra Large** (392 x 504 px)
+## 🚀 Quick Start (Running in 30 Seconds)
 
----
+### 1. Clone the repository
+```bash
+git clone https://github.com/OneUp82/pomodoro.git
+cd pomodoro
+```
 
-### 6. 🖱️ Interaktiv & Rammeløs / Frameless & Draggable
-- Hold nede **venstre museknapp** for å dra maskoten hvor som helst på skjermen.
-- Klikk direkte på magen for å starte eller pause!
-- Høyreklikk for full tilgang til menyer og innstillinger.
-
----
-
-## 🚀 Slik starter dere appen / How to run
-
-### 1. Installer avhengigheter / Install dependencies:
-```powershell
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Start maskoten / Launch:
-```powershell
+### 3. Launch your mascot!
+```bash
 python pomodoro_cat.py
 ```
 
 ---
 
-## 👨‍💻 For Utviklere / For Developers
+## 🎨 Available Skins & Soundscapes
 
-Prosjektet er strukturert for å være enkelt å lese, vedlikeholde og utvide for andre utviklere:
-- **Internasjonalisering (i18n):** All tekst er samlet i `TRANSLATIONS`-ordboken i `pomodoro_cat.py`. For å legge til et nytt språk (f.eks. tysk eller fransk), legg bare til språkkoden i `LANGUAGES` og oversett strengene i `TRANSLATIONS`.
-- **Nye Skins:** Lagre et 28x36 (eller skalert) bilde i `skins/{id}.png` og en lyd i `skins/{id}.wav`, og legg til definisjonen i `SKIN_DEFINITIONS`.
-- **Rammeløs rendering:** Bruker `-transparentcolor` i Tkinter for pikselperfekt gjennomsiktighet på Windows.
-
-Les mer om arkitekturen i kildekoden til [`pomodoro_cat.py`](pomodoro_cat.py) og [`ABOUT.md`](ABOUT.md).
+| Mascot | Name (EN) | Sound Profile |
+|:---:|:---|:---|
+| 🥑 | **Avocado** *(Avo-friend)* | Bubbly cartoon pop & squish |
+| 🐱 | **Cat** *(Kitty)* | Gentle melodic kitten meow |
+| 🐶 | **Dog** *(Puppy)* | Cheerful double puppy bark |
+| 🐸 | **Frog** *(Ribbit)* | Resonant swamp croak |
+| 🦆 | **Duck** *(Quack)* | Classic nasal duck quack |
+| 🐼 | **Panda** *(Bamboo)* | Crispy bamboo munch chime |
+| 🤖 | **Robot** *(Beep)* | Retro 8-bit arcade arpeggio |
+| 👻 | **Ghost** *(Boo)* | Ethereal vibrato whistle |
+| 🍓 | **Strawberry** *(Berry)* | Sweet crystal bell chime |
+| 🐻 | **Bear** *(Teddy)* | Warm cozy bear hum & harp |
 
 ---
 
-## 📜 Lisens
-Åpen kildekode under **MIT License**. Laget av **[OneUp82](https://github.com/OneUp82)**.
+## 🛠️ Architecture & Extensibility
+
+The codebase is built with clean separation of concerns and thorough docstrings, making it enjoyable to explore and modify.
+
+### 🌐 Adding a New Language
+All localized strings reside in the `TRANSLATIONS` dictionary inside `pomodoro_cat.py`. Adding a new language takes just a few lines:
+```python
+# 1. Register the language code and display label
+LANGUAGES["de"] = "🇩🇪 Deutsch"
+
+# 2. Add translation entries in TRANSLATIONS
+TRANSLATIONS["de"] = {
+    "menu_skin": "🎨 Skin wechseln...",
+    "btn_start": "✔ STARTEN",
+    # ...
+}
+```
+
+### 🎨 Creating a Custom Skin
+1. Place your 28×36 (or scaled) pixel-art PNG into `skins/<your_skin_name>.png`.
+2. Place a matching sound effect into `skins/<your_skin_name>.wav`.
+3. Register it in `SKIN_DEFINITIONS`:
+```python
+SKIN_DEFINITIONS.append({
+    "id": "dragon",
+    "names": {
+        "en": "🐉 Dragon",
+        "no": "🐉 Drage",
+        "es": "🐉 Dragón"
+    }
+})
+```
+
+---
+
+## 📋 Requirements
+
+- **Python:** 3.10 or newer
+- **customtkinter:** Modern styling utilities
+- **Pillow (PIL):** Pixel-perfect image processing
+- **pygame:** Audio playback engine *(with Windows `winsound` as an automatic fallback)*
+
+---
+
+## 👤 Author
+
+Crafted by **[OneUp82](https://github.com/OneUp82)**.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and build upon it!
