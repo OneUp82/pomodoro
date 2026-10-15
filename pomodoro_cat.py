@@ -2,11 +2,10 @@
 =============================================================================
          🥑🐾 PIXEL MASCOT POMODORO TIMER MED SKINS & LYD 🐾🥑
 =============================================================================
-Et morsomt og lærerikt skrivebords-kjæledyr og Pomodoro-program for far og sønn!
-Utviklet av OneUp82: https://github.com/OneUp82
+Laget av OneUp82: https://github.com/OneUp82
 
-Nye oppdateringer:
-1. ℹ️ "Om prosjektet"-dialog med direkte lenke til OneUp82 på GitHub!
+Funksjoner:
+1. ℹ️ "Om prosjektet" plassert rett over "Avslutt" med lenke til OneUp82.
 2. 📏 Definerte størrelser i høyreklikk-menyen (Liten, Medium, Stor, Ekstra Stor).
 3. 👁️ Krystallklar tekst med mørk skjermflate og fallskygge for maksimal kontrast.
 4. 🥑 10 søte skins med matchende lyder og risteeffekt når tiden er ute.
@@ -107,7 +106,7 @@ class PomodoroMascot(tk.Tk):
         self.verifiser_og_lag_filer()
 
         # Vindusinnstillinger
-        self.title("Pomodoro Maskot - av OneUp82")
+        self.title("Pixel Mascot Pomodoro - av OneUp82")
         self.overrideredirect(True)
         self.wm_attributes("-topmost", True)
 
@@ -375,7 +374,7 @@ class PomodoroMascot(tk.Tk):
         self.hurtig_meny.add_command(label="🌟 15 min (Lang pause)", command=lambda: self.sett_tid(0, 15, 0))
         self.hurtig_meny.add_command(label="⚡ 1 min (Rask test)", command=lambda: self.sett_tid(0, 1, 0))
 
-        # Bygg hovedmenyen
+        # Bygg hovedmenyen: 'Om prosjektet' er plassert rett over 'Avslutt'
         self.meny.add_cascade(label="🎨 Bytt Skin...", menu=self.skin_meny)
         self.meny.add_cascade(label="📏 Størrelse...", menu=self.storrelse_meny)
         self.meny.add_cascade(label="⏱️ Hurtigvalg tid...", menu=self.hurtig_meny)
@@ -383,10 +382,10 @@ class PomodoroMascot(tk.Tk):
         self.meny.add_separator()
         self.meny.add_command(label="🔊 Test skin-lyd", command=lambda: spill_skin_lyd(self.aktivt_skin))
         self.meny.add_command(label="📳 Test risting", command=self.start_risting)
-        self.meny.add_command(label="ℹ️ Om prosjektet...", command=self.apne_om_dialog)
         self.meny.add_command(label="📌 Fest alltid øverst (På/Av)", command=self.veksle_alltid_overst)
         self.meny.add_command(label="🔄 Nullstill (Reset)", command=self.nullstill_timer)
         self.meny.add_separator()
+        self.meny.add_command(label="ℹ️ Om prosjektet...", command=self.apne_om_dialog)
         self.meny.add_command(label="❌ Avslutt", command=self.destroy)
 
     def vis_hoyreklikk_meny(self, event):
@@ -521,12 +520,12 @@ class PomodoroMascot(tk.Tk):
         """Viser 'Om prosjektet'-vindu med lenke til OneUp82 på GitHub."""
         dialog = tk.Toplevel(self)
         dialog.title("ℹ️ Om Pomodoro Maskot")
-        dialog.geometry("340x270")
+        dialog.geometry("320x210")
         dialog.resizable(False, False)
         dialog.configure(bg="#1E1E28")
         dialog.wm_attributes("-topmost", True)
 
-        pos_x = max(20, self.winfo_x() - 40)
+        pos_x = max(20, self.winfo_x() - 30)
         pos_y = max(20, self.winfo_y() - 10)
         dialog.geometry(f"+{pos_x}+{pos_y}")
 
@@ -536,24 +535,15 @@ class PomodoroMascot(tk.Tk):
             font=("Segoe UI", 12, "bold"),
             bg="#1E1E28",
             fg="#00F5A0"
-        ).pack(pady=(16, 4))
+        ).pack(pady=(22, 6))
 
         tk.Label(
             dialog,
-            text="Et morsomt og lærerikt\nfar-og-sønn-kodingsprosjekt!",
-            font=("Segoe UI", 10),
+            text="Laget av OneUp82",
+            font=("Segoe UI", 11, "bold"),
             bg="#1E1E28",
-            fg="#DDDDDD",
-            justify="center"
-        ).pack(pady=4)
-
-        tk.Label(
-            dialog,
-            text="Laget med stolthet av OneUp82 👨‍👦",
-            font=("Segoe UI", 10, "bold"),
-            bg="#1E1E28",
-            fg="#FFD166"
-        ).pack(pady=6)
+            fg="#FFFFFF"
+        ).pack(pady=(0, 16))
 
         def apne_github():
             webbrowser.open_new("https://github.com/OneUp82")
@@ -565,11 +555,11 @@ class PomodoroMascot(tk.Tk):
             bg="#00F5A0",
             fg="#000000",
             font=("Segoe UI", 9, "bold"),
-            padx=12,
-            pady=5,
+            padx=14,
+            pady=6,
             relief="flat",
             cursor="hand2"
-        ).pack(pady=8)
+        ).pack(pady=(0, 12))
 
         tk.Button(
             dialog,
@@ -581,7 +571,7 @@ class PomodoroMascot(tk.Tk):
             padx=14,
             pady=3,
             relief="flat"
-        ).pack(pady=(4, 10))
+        ).pack()
 
     def apne_tidsinnstilling(self):
         """Åpner innstillingsvinduet for tid og oppgave med sikker validering."""

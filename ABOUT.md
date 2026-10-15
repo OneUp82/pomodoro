@@ -1,17 +1,14 @@
 # ℹ️ Om Prosjektet / About
 
-## 🥑 Pixel Mascot Pomodoro Timer
+## 🥑 Pixel Mascot Pomodoro
 
-Et sjarmerende, lærerikt og lekent skrivebords-kjæledyr og Pomodoro-nedtellingstimer bygget i Python.
+En sjarmerende og leken skrivebords-maskot og Pomodoro-timer bygget i Python.
 
 ---
 
-### 👨‍👦 Hvem har laget dette?
-Dette prosjektet ble skapt som et felles far-og-sønn-kodingsprosjekt for å lære programmering på en morsom, visuell og engasjerende måte.
-
-- **Utvikler / Skaper:** [OneUp82](https://github.com/OneUp82)
+### 👤 Utvikler
+- **Laget av:** [OneUp82](https://github.com/OneUp82)
 - **GitHub Profil:** [https://github.com/OneUp82](https://github.com/OneUp82)
-- **Idé og konsept:** En søt pixel art-maskot som bor rett på skrivebordet, hjelper med fokus på lekser og oppgaver, og feirer med lyd og risteeffekt når tiden er ute!
 
 ---
 
@@ -44,5 +41,3 @@ Dette prosjektet ble skapt som et felles far-og-sønn-kodingsprosjekt for å læ
 
 ### 📜 Lisens
 Dette prosjektet er åpen kildekode under **MIT-lisensen** – føl deg fri til å bruke koden, lære av den og bygge videre på den!
-
-*Laget med ❤️ og nysgjerrighet av far og sønn.*

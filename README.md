@@ -1,8 +1,8 @@
-# 🥑🐾 Pixel Mascot Pomodoro Timer
+# 🥑🐾 Pixel Mascot Pomodoro
 
-Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer laget for far og sønn! ⏱️🎉
+Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer bygget i Python! ⏱️🎉
 
-Utviklet av **[OneUp82](https://github.com/OneUp82)** som et felles læringsprosjekt.
+Laget av **[OneUp82](https://github.com/OneUp82)**.
 
 Maskoten flyter fritt på skrivebordet ditt uten vanlige vindusrammer, akkurat som en ekte skrivebordspartner!
 
@@ -42,9 +42,9 @@ Høyreklikk på maskoten for å få opp hurtigmenyen:
 - ⚙️ **Still inn tid & oppgave...** (Skriv inn egne timer, minutter, sekunder og oppgavenavn, f.eks. "lekser")
 - 🔊 **Test skin-lyd** (Hør lyden til gjeldende skin)
 - 📳 **Test risting** (Se maskoten riste og danse på skjermen!)
-- ℹ️ **Om prosjektet** (Informasjon om skaperen og lenke til GitHub)
 - 📌 **Fest alltid øverst** (Velg om den skal flyte over andre vinduer)
 - 🔄 **Nullstill (Reset)**
+- ℹ️ **Om prosjektet...** (Laget av OneUp82)
 - ❌ **Avslutt**
 
 ### 5. 🔊 Egen unik lyd til hvert skin
@@ -75,6 +75,6 @@ python pomodoro_cat.py
 
 ---
 
-## 👨‍👦 Om prosjektet
+## 👤 Utvikler
 Laget av **[OneUp82](https://github.com/OneUp82)**.  
 Les mer i [ABOUT.md](ABOUT.md).
