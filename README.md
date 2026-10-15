@@ -6,82 +6,91 @@
 
 <p align="center">
   <b>Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer bygget i Python! ⏱️🎉</b><br>
+  <i>A cute, floating desktop mascot and Pomodoro timer built in Python!</i><br>
+  <i>¡Una adorable mascota de escritorio y temporizador Pomodoro en Python!</i><br><br>
   Laget av <b><a href="https://github.com/OneUp82">OneUp82</a></b>
 </p>
 
 ---
 
-Maskoten flyter fritt på skrivebordet ditt uten vanlige vindusrammer, akkurat som en ekte skrivebordspartner!
+## 🌟 Funksjoner / Features / Características
+
+### 1. 🌐 3 Språk / 3 Languages / 3 Idiomas
+Maskoten støtter dynamisk bytte mellom 3 språk via høyreklikk-menyen:
+- 🇳🇴 **Norsk** (Bokmål)
+- 🇬🇧 **English**
+- 🇪🇸 **Español**
+
+Alle menyer, skinnnavn, knapper og innstillingsdialoger oppdateres umiddelbart!
 
 ---
 
-## 🌟 Funksjoner
-
-### 1. 🥑 10 forskjellige søte skins
-Dere kan når som helst bytte mellom 10 sjarmerende pixel art-figurer:
-1. 🥑 **Avokado (Avo-venn)** – Med spire på toppen og mørk avokadostein!
-2. 🐱 **Katt (Pus)** – Søt oransje pus med ører og halsbånd.
-3. 🐶 **Hund (Valp)** – Glad valp med floppy ører og blått halsbånd.
-4. 🐸 **Frosk (Kvekk)** – Grønn glad frosk med store øyne.
-5. 🦆 **And (Kvakk)** – Gul andunge med oransje nebb.
-6. 🐼 **Panda (Bambus)** – Søt panda med sorte øyeflekker.
-7. 🤖 **Robot (Beep)** – Retro 8-bit arkaderobot med antenne.
-8. 👻 **Spøkelse (Bø)** – Koselig, snilt lite spøkelse.
-9. 🍓 **Jordbær (Bær)** – Rødt sommerbær med grønne blader.
-10. 🐻 **Bjørn (Teddy)** – Brun kosebjørn med mørk sjokolademage.
-
-### 2. 📏 Valgbare størrelser
-Høyreklikk og velg den størrelsen som passer din skjerm best:
-- ▫️ **Liten (224 x 288 px)**
-- ◽ **Medium (280 x 360 px)** – *Standard*
-- ◻️ **Stor (336 x 432 px)**
-- ⬛ **Ekstra Stor (392 x 504 px)**
-
-### 3. 🖱️ Dra den rundt på skjermen
-- Hold nede **venstre museknapp** hvor som helst på maskoten for å dra den rundt på skrivebordet.
-- Klikk direkte på sirkelen i magen for å starte eller pause!
-
-### 4. 🔘 Høyreklikk-meny
-Høyreklikk på maskoten for å få opp hurtigmenyen:
-- 🎨 **Bytt Skin** (Velg blant alle 10 skins)
-- 📏 **Størrelse** (Liten, Medium, Stor, Ekstra Stor)
-- ⏱️ **Hurtigvalg tid** (25 min fokus, 5 min pause, 15 min lang pause, 1 min rask test)
-- ⚙️ **Still inn tid & oppgave...** (Skriv inn egne timer, minutter, sekunder og oppgavenavn, f.eks. "lekser")
-- 🔊 **Test skin-lyd** (Hør lyden til gjeldende skin)
-- 📳 **Test risting** (Se maskoten riste og danse på skjermen!)
-- 📌 **Fest alltid øverst** (Velg om den skal flyte over andre vinduer)
-- 🔄 **Nullstill (Reset)**
-- ℹ️ **Om prosjektet...** (Laget av OneUp82)
-- ❌ **Avslutt**
-
-### 5. 🔊 Egen unik lyd til hvert skin
-Hvert skin har sin egen lyd som spilles av når tiden er ute:
-- 🥑 Avokado: *Cartoon Pop & Squish*
-- 🐱 Katt: *Søt kattemjau*
-- 🐶 Hund: *Muntert voff-voff*
-- 🐸 Frosk: *Dype kvekk-kvekk*
-- 🦆 And: *Klassisk kvakk-kvakk*
-- 🐼 Panda: *Knaskende bambus-arpeggio*
-- 🤖 Robot: *8-bit arkade beep-boop*
-- 👻 Spøkelse: *Mystisk woooo-lyd*
-- 🍓 Jordbær: *Krystall-bjelle / ding*
-- 🐻 Bjørn: *Varm bjørnebrum & harpe*
-
-### 6. 📳 Fysisk risteeffekt (Screen Shake)
-Når timeren når `00:00:00`, begynner maskoten å **riste og vibrere ivrig** fram og tilbake på skjermen for å feire at dere er i mål!
+### 2. 🥑 10 Søte Skins / 10 Cute Skins
+Bytt når som helst mellom 10 unike pixel art-figurer:
+1. 🥑 **Avokado / Avocado / Aguacate**
+2. 🐱 **Katt / Cat / Gato**
+3. 🐶 **Hund / Dog / Perro**
+4. 🐸 **Frosk / Frog / Rana**
+5. 🦆 **And / Duck / Pato**
+6. 🐼 **Panda**
+7. 🤖 **Robot**
+8. 👻 **Spøkelse / Ghost / Fantasma**
+9. 🍓 **Jordbær / Strawberry / Fresa**
+10. 🐻 **Bjørn / Bear / Oso**
 
 ---
 
-## 🚀 Slik starter dere appen
+### 3. 🔊 Tilpasset Lyd / Custom Sounds
+Hvert skin har sin egen unike, syntetiserte lydeffekt:
+- Katten mjauer, hunden bjeffer, avokadoen popper, roboten piper 8-bit, osv.!
 
-Åpne PowerShell eller ledetekst og kjør:
+---
+
+### 4. 📳 Risteeffekt / Screen Shake Animation
+Når tiden når `00:00:00`, rister og danser maskoten fysisk på skjermen med dempet oscillasjon!
+
+---
+
+### 5. 📏 4 Skalerbare Størrelser / 4 Scalable Sizes
+Pikslene forblir knivskarpe (Nearest Neighbor-skalering):
+- ▫️ **Liten / Small** (224 x 288 px)
+- ◽ **Medium** (280 x 360 px) – *Standard*
+- ◻️ **Stor / Large** (336 x 432 px)
+- ⬛ **Ekstra Stor / Extra Large** (392 x 504 px)
+
+---
+
+### 6. 🖱️ Interaktiv & Rammeløs / Frameless & Draggable
+- Hold nede **venstre museknapp** for å dra maskoten hvor som helst på skjermen.
+- Klikk direkte på magen for å starte eller pause!
+- Høyreklikk for full tilgang til menyer og innstillinger.
+
+---
+
+## 🚀 Slik starter dere appen / How to run
+
+### 1. Installer avhengigheter / Install dependencies:
 ```powershell
-cd "c:\AI prosjekter\Pomodoro"
+pip install -r requirements.txt
+```
+
+### 2. Start maskoten / Launch:
+```powershell
 python pomodoro_cat.py
 ```
 
 ---
 
-## 👤 Utvikler
-Laget av **[OneUp82](https://github.com/OneUp82)**.  
-Les mer i [ABOUT.md](ABOUT.md).
+## 👨‍💻 For Utviklere / For Developers
+
+Prosjektet er strukturert for å være enkelt å lese, vedlikeholde og utvide for andre utviklere:
+- **Internasjonalisering (i18n):** All tekst er samlet i `TRANSLATIONS`-ordboken i `pomodoro_cat.py`. For å legge til et nytt språk (f.eks. tysk eller fransk), legg bare til språkkoden i `LANGUAGES` og oversett strengene i `TRANSLATIONS`.
+- **Nye Skins:** Lagre et 28x36 (eller skalert) bilde i `skins/{id}.png` og en lyd i `skins/{id}.wav`, og legg til definisjonen i `SKIN_DEFINITIONS`.
+- **Rammeløs rendering:** Bruker `-transparentcolor` i Tkinter for pikselperfekt gjennomsiktighet på Windows.
+
+Les mer om arkitekturen i kildekoden til [`pomodoro_cat.py`](pomodoro_cat.py) og [`ABOUT.md`](ABOUT.md).
+
+---
+
+## 📜 Lisens
+Åpen kildekode under **MIT License**. Laget av **[OneUp82](https://github.com/OneUp82)**.
