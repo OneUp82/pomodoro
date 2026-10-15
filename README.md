@@ -1,8 +1,15 @@
 # 🥑🐾 Pixel Mascot Pomodoro
 
-Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer bygget i Python! ⏱️🎉
+<p align="center">
+  <img src="skins/avocado.png" width="160" alt="Pixel Mascot Avocado" />
+</p>
 
-Laget av **[OneUp82](https://github.com/OneUp82)**.
+<p align="center">
+  <b>Et herlig, flytende skrivebords-kjæledyr og Pomodoro-timer bygget i Python! ⏱️🎉</b><br>
+  Laget av <b><a href="https://github.com/OneUp82">OneUp82</a></b>
+</p>
+
+---
 
 Maskoten flyter fritt på skrivebordet ditt uten vanlige vindusrammer, akkurat som en ekte skrivebordspartner!
 
